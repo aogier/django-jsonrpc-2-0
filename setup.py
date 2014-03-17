@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 version = '.'.join([str(v) for v in __import__('jsonrpc').VERSION])
 
 setup(
-    name='jsonrpc',
+    name='django-jsonrpc',
     description='A JSON-RPC 2.0 server that is loosely coupled to Django',
     version=version,
     author='Michael Angeletti',
